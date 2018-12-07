@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace KatanaIntro
 {
+    // START AT MIDDLEWARE SECTION 
     using AppFunc = Func<IDictionary<string, object>, Task>;
 
     class Program
