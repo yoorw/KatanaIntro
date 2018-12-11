@@ -13,20 +13,20 @@ namespace KatanaIntro
     // START AT MIDDLEWARE SECTION 
     using AppFunc = Func<IDictionary<string, object>, Task>;
 
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            string uri = "http://localhost:8080";
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        string uri = "http://localhost:8080";
 
-            using (WebApp.Start<Startup>(uri))
-            {
-                Console.WriteLine("Started!");
-                Console.ReadKey();
-                Console.WriteLine("Stopping");
-            }
-        }
-    }
+    //        using (WebApp.Start<Startup>(uri))
+    //        {
+    //            Console.WriteLine("Started!");
+    //            Console.ReadKey();
+    //            Console.WriteLine("Stopping");
+    //        }
+    //    }
+    //}
 
     public class Startup
     {
